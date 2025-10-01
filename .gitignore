@@ -1,0 +1,115 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# PyQt
+*.ui.autosave
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Machine Learning Models
+*.h5
+*.pkl
+*.joblib
+*.pth
+*.pt
+*.onnx
+# Keep my_model.keras in repo (comment out if you want to track it)
+# my_model.keras
+
+# Data Files
+*.csv
+*.json
+*.xml
+*.sqlite
+*.db
+
+# Media Files (adjust based on what you want to track)
+*.avi
+*.mkv
+*.mov
+*.flv
+*.mp3
+*.wav
+*.ogg
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.cache
+output_audio.mp3
+
+# API Keys and Secrets
+.env
+.env.local
+secrets.json
+config.ini
+
+# OS Files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Documentation
+docs/_build/
+
+# Large datasets
+datasets/
+data/
+*.zip
+*.tar.gz
+*.rar
+
+# Whisper model cache
+~/.cache/whisper/
+
+# Transformers cache
+~/.cache/huggingface/
+
+#report
+Rapport RDF.pdf
